@@ -37,8 +37,8 @@ function playNext() {
     activeInstrument++;
 }
 
-flute = new Woodwind(10);
+recorder = new Woodwind(10);
 drum = new Percussion(20);
 guitar = new String(30);
-const instruments = [flute, drum, guitar];
+const instruments = [recorder, drum, guitar];
 console.log(instruments);
